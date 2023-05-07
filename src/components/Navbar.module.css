@@ -1,0 +1,15 @@
+@media screen and (max-width:900px) {
+    [className*='fa-lg'] {
+        background: red;
+        position: absolute;
+    }
+}
+.title {
+    font-family:'Chiller';
+    font-size:'26px';
+    font-weight:'bold';
+    color:'black'
+}
+.cart {
+    background: red;
+}

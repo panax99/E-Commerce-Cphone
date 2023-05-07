@@ -1,0 +1,12 @@
+.card{
+    box-shadow: 50px;
+    display:'inline-block';
+    width: 270px;
+    margin: 15px;
+}
+
+#img-top:hover{
+    box-shadow: 80px;
+    background-size:150px;
+    transition: 0.5s;
+}

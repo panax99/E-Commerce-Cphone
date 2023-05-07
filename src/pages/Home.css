@@ -1,0 +1,73 @@
+.home{
+    overflow-x: hidden;
+}
+.first{
+    background-color: cornflowerblue;
+    height: 700px;
+}
+.img{
+    background-image:url('../../public/2.jpg');
+    background-size:contain;
+    
+    height: 380px;
+    width: 100%;
+}
+.sign{
+    background: blueviolet;
+    font-weight: 500;
+    opacity: 0;
+}
+.h3{
+    opacity: 0;
+}
+.sign:hover{
+    background: white;
+    color: coral;
+}
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+h3.slide-left{
+    animation-delay: 1s;
+}
+button.slide-left{
+    animation-delay: 2s;
+}
+@keyframes slideleft{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+
+.slide-up{
+    animation: slideup 1s linear both;
+    animation-fill-mode: both;
+}
+h3.slide-up{
+    animation-delay: 1s;
+}
+button.slide-up{
+    animation-delay: 2s;
+}
+@keyframes slideup{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0%);
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width:500px){
+    .img{
+       background-size:cover;
+    }
+}

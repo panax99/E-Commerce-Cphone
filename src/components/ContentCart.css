@@ -1,0 +1,27 @@
+.content{
+    width: 280px;
+    height: 180px;
+    box-shadow: 100px;
+    margin: auto;
+    background: whitesmoke;
+    color: black;
+    margin-top: 10px;
+    border:2px black;
+    border-radius: 10px;
+}
+
+.slide-up{
+    animation: slideup 0.4s linear both;
+    animation-fill-mode: both;
+}
+
+@keyframes slideup{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0%);
+        opacity: 1;
+    }
+}

@@ -1,8 +1,14 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import postsReducer from '../features/posts/postsSlice';
+import darkModeReducer from '../features/darkMode/darkModeSlice';
+import shoppingCartReducer from '../features/shoppingCart/shoppingCartSlice';
+
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    darkmode: darkModeReducer,
+    posts: postsReducer,
+    shoppingCart: shoppingCartReducer
   },
 });
+

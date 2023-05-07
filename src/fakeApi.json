@@ -1,0 +1,56 @@
+[
+    {
+        "id_ar":1,
+        "nom_ar":"Google Pixel",
+        "prix_ar":200000,
+        "img_ar":"fond.jpg"
+    },
+    {
+        "id_ar":2,
+        "nom_ar":"Google Pixel XL",
+        "prix_ar":250000,
+        "img_ar":"1.jpg"
+    },
+    {
+        "id_ar":3,
+        "nom_ar":"I phone 6",
+        "prix_ar":300000,
+        "img_ar":"fond.jpg"
+    },
+    {
+        "id_ar":4,
+        "nom_ar":"Huawei P20",
+        "prix_ar":400000,
+        "img_ar":"py.jpg"
+    },
+    {
+        "id_ar":5,
+        "nom_ar":"Sony XZ",
+        "prix_ar":400000,
+        "img_ar":"1.png"
+    },
+    {
+        "id_ar":6,
+        "nom_ar":"Aquos R2",
+        "prix_ar":400000,
+        "img_ar":"2.jpg"
+    },
+    {
+        "id_ar":7,
+        "nom_ar":"Aquos R3",
+        "prix_ar":400000,
+        "img_ar":"py.jpg"
+    },
+    {
+        "id_ar":8,
+        "nom_ar":"Samsung Galaxy S22",
+        "prix_ar":400000,
+        "img_ar":"x.jpg"
+    }
+
+
+
+
+
+
+]
